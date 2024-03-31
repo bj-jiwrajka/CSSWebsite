@@ -82,7 +82,7 @@ const Executives = ({ members }: ExecutivesProps) => {
   const executives = members.filter((member) => {
     return member.year === "4";
   });
-  executives[0].phoneNo = "76360 12703";
+  executives[0].phoneNo = "91018 07619";
   executives[2].phoneNo = "70023 75113";
   executives[1].phoneNo = "70335 71910";
   return (

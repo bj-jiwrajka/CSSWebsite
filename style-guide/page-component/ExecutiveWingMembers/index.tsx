@@ -60,11 +60,12 @@ const ExecutiveWing = ({ members, coHeads }: MemberProps) => {
         })}
         {coHeads.length >= 4 ? <MemberCard2 props={coHeads[3]} /> : null}
         {members.map((member, index) => {
-          return index >= 11 && index < 14 ? (
+          return index >= 11 && index < 15 ? (
             <MemberCard2 props={member} key={index} />
           ) : null;
         })}
         {coHeads.length >= 5 ? <MemberCard2 props={coHeads[4]} /> : null}
+        {coHeads.length >= 5 ? <MemberCard2 props={coHeads[5]} /> : null}
       </div>
     </div>
   );

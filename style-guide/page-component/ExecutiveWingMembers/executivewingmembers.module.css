@@ -97,6 +97,7 @@
   -ms-flex-item-align: end;
   align-self: flex-end;
 }
+
 .grid > div:nth-child(15) {
   justify-self: flex-start;
   -ms-flex-item-align: start;
@@ -105,6 +106,14 @@
   width: 20vw;
 }
 .grid > div:nth-child(16) {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  height: 20vw;
+  width: 20vw;
+}
+.grid > div:nth-child(17) {
   -ms-grid-column-align: center;
   justify-self: center;
   -ms-flex-item-align: start;
